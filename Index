@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeopardy Game</title>
+  <!-- Add your CSS link here -->
+</head>
+<body>
+  <header>
+    <h1>Jeopardy Game</h1>
+  </header>
+  
+  <main>
+    <section class="categories">
+      <div class="category">
+        <h2>Category 1</h2>
+        <ul class="questions">
+          <li class="question">$100</li>
+          <li class="question">$200</li>
+          <!-- Add more questions here -->
+        </ul>
+      </div>
+      <!-- Add more categories here -->
+    </section>
+    
+    <section class="game-board">
+      <div class="question-card">
+        <h3>Category: Category 1</h3>
+        <p>Question: What is the capital of France?</p>
+        <button class="answer-button">Show Answer</button>
+        <p class="answer hidden">Answer: Paris</p>
+      </div>
+      <!-- Add more question cards here -->
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Jeopardy Game</p>
+  </footer>
+  
+  <!-- Add your JavaScript link here -->
+</body>
+</html>
